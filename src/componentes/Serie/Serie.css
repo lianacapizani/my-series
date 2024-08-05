@@ -1,0 +1,38 @@
+.serie {
+  width: 280px;
+}
+
+.serie .cabecalho {
+  border-radius: 10px 10px 0px 0px;
+}
+.serie img {
+  width: 200px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 4px;
+  position: relative;
+  bottom: -60px;
+}
+
+.serie .rodape {
+  background: #ffffff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 60px;
+  padding-bottom: 16px;
+}
+
+.serie .rodape h4 {
+  color: var(--purple-500);
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.serie .rodape h5 {
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--gray-600);
+  padding: 0 16px;
+}
